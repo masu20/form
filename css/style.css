@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:300|Spicy+Rice');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+        font-family: 'Poppins', sans-serif;
+}
+
+
+.loginform-section{
+    background-image: url(../images/dubai-1767540_1280.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.login{
+    position: absolute;
+    background: #ededf47a;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 20px;
+    box-shadow: 0 0 50px grey;
+    width: 35%;
+}
+.login h1{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+.login p{
+    text-align: center;
+}
+.login p a{
+    color: #8c94f9;
+}
+
+.login form{}
+.login form input{
+    width: 100%;
+    border: 1px solid #969696;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.login form ul{
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 0;
+}
+.login form ul li{
+    float: left;
+    width: 50%;
+    list-style: none;
+}
+
+.login form ul li input{
+    width: auto;
+}
+
+.login form ul li input span{}
+
+.login form ul li p{text-align: right;}
+
+.login form ul li a{
+    color: #8c94f9;
+    display: block;
+    text-align: right;
+}
+
+
+.login-btn{
+    background: #8c94f9;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px !important;
+}
